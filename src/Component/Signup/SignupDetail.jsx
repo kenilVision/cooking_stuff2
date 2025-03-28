@@ -61,24 +61,24 @@ function SignupDetail() {
             </div>
             <button
               type="submit"
-              className="w-1/2 py-2 bg-orange-500 text-white mx-auto text-2xly
-               hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500"
+              className="w-1/2 py-2 bg-[#F99106] text-white mx-auto text-2xly
+               focus:outline-none focus:ring-2 hover:cursor-pointer"
             >
               Create Account
             </button>
           </form>
           <p className="mt-4 text-sm text-gray-500">
-            Already have an account? <a href="#" className="text-orange-500 hover:underline">Log in</a>
+            Already have an account? <a href="#" className="text-[#F99106] hover:underline">Log in</a>
           </p>
           <div className="mt-6 flex items-center justify-between">
             <span className="text-gray-500">OR</span>
           </div>
-          <div className="mt-4 flex space-x-4">
-            <button className="w-full flex items-center justify-center p-2 bg-white border border-[#D2D2D2] ">
+          <div className="mt-4 flex space-x-3 w-full">
+            <button className="w-full flex text-base items-center justify-evenly p-2 bg-white border border-[#D2D2D2] hover:cursor-pointer">
               <img src={google} alt="Google" className=" mr-2" /> Sign up with Google
             </button>
-            <button className="w-full flex items-center justify-center p-2 bg-white border border-[#D2D2D2] ">
-              <img src={facebook} alt="Facebook" className=" mr-2" /> Sign up with Facebook
+            <button className="w-full text-base flex items-center justify-evenly   p-2 bg-white border border-[#D2D2D2] hover:cursor-pointer ">
+              <img src={facebook} alt="Facebook" className=" mr-2" heigth="50" width="50"/> Sign up with Facebook
             </button>
           </div>
         </div>

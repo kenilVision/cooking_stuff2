@@ -79,11 +79,12 @@ function Navbar() {
             </div>
           </div>
 </div>
-        <button 
+        <NavLink
+            to='/Signin'
             type="button" 
             className=" text-gray-700 font-medium hover:cursor-pointer hidden justify-center items-center lg:flex px-4">
             Sign In
-          </button>
+          </NavLink>
           <div className='flex justify-center items-center'>
           <NavLink to='/SignUp'
             type="button" 

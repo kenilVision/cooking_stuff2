@@ -4,6 +4,7 @@ import ContactUs from '../Page/ContactUs'
 import Posts from '../Page/Posts'
 import SignUp from '../Page/SignUp';
 import ProductPage from '../Page/ProductPage';
+import Signin from '../Page/Signin';
 
 
 export const roots = [    
@@ -27,6 +28,10 @@ export const roots = [
     { 
         path: '/SignUp', 
         element: <SignUp />
+    },
+    { 
+        path: '/Signin', 
+        element: <Signin />
     },
     { 
         path: '/CourseDetail', 
