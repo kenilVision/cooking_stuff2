@@ -23,31 +23,31 @@ const Card = ({ image, text , course}) => {
     
     >
       {/* Image section */}
-      <div className="p-0">
+      <div className="p-0 w-full">
         <img
           src={image}
           alt=" (Lifetime Access)"
-          className="w-full "
+          className="w-full m-0 p-0 object-contain"
         />
       </div>
 
 
       <div className="p-4">
   
-        <h3 className="text-[26px] font-semibold mb-4 ">
+        <h3 className="text-[26px] font-medium mb-4 ">
           {text} (Lifetime Access)
         </h3>
 
 
         <div className="flex items-center text-2xl mb-4 ">
-          <span className="text-yellow-500 flex gap-2 items-center">4.2 {star}{star}{star}{star}{star} </span>
-          <span className="text-gray-600 ml-2">(2,002)</span>
+          <span className="text-[#F99106] flex gap-2 items-center">4.2 {star}{star}{star}{star}{star} </span>
+          <span className="text-[#7B7B7B] font-normal ml-2">(2,002)</span>
         </div>
 
         
         <div className="flex items-center text-3xl mb-4">
-          <span className="font-bold text-black">₹500</span>
-          <span className="text-gray-400 line-through ml-2">₹5,000</span>
+          <span className="font-normal text-black">₹500</span>
+          <span className="text-[#7B7B7B] line-through ml-2">₹5,000</span>
         </div>
         <div className="flex items-center  ">
           {course?<Badge text={course}/>:""}

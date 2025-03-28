@@ -2,14 +2,14 @@ import React from 'react'
 
 function Badge({text}) {
   return (
-    <div  >
-    <span className="p-1 text-xs bg-[#F99106]  text-white rounded-sm"
+    
+    <span className="py-1 text-[14px] bg-[#F99106] text-white rounded-[5px] flex items-center justify-center "
     style={{
       minHeight:'30px',
       minWidth:'133px'
     }}
     >{text}</span>
-  </div>
+
   )
 }
 

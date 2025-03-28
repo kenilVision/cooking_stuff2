@@ -18,22 +18,22 @@ function ReviewCard({image, text ,clientname ,jobTitle, headline}) {
         boxShadow: '0px 0px 7px 0px #00000040'
     }}>
       
-      <div className="flex items-center space-x-4 ">
-        <img src={image} alt={name} className="w-12 h-12 rounded-full" />
+      <div className="flex items-center space-x-5 ">
+        <img src={image} alt={name} className=" rounded-full" />
         <div>
-          <h3 className="text-2xl font-bold">{clientname}</h3>
-          <p className="text-lg  text-gray-500">{jobTitle}</p>
+          <h3 className="text-2xl font-medium">{clientname}</h3>
+          <p className="text-lg font-normal  text-gray-500">{jobTitle}</p>
         </div>
       </div>
 
     
-      <p className="font-semibold mt-4 text-lg ">{headline}</p>
+      <p className="font-medium mt-10 text-lg ">{headline}</p>
 
     
-      <p className="text-gray-600 mt-2 text-lg ">{text}</p>
+      <p className="text-gray-600 mt-5 text-lg ">{text}</p>
 
    
-      <div className="flex items-center   mt-5">
+      <div className="flex items-center mt-5">
        
           <span className={`flex gap-2  text-xl`}>
               {svg} {svg} {svg} {svg} {svg}

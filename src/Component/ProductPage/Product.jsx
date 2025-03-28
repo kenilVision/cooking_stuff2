@@ -214,59 +214,66 @@ const icon=[
           </div>
           <div className=' text-2xl '>
          
-            <div className='grid grid-cols-1 md:grid-cols-2'>
+            <div className='grid grid-cols-1 mb-[30px] md:grid-cols-2'>
               <div>
-              <li className="flex items-center">
-                <span className=" mr-8 mb-7">{svg}</span>
+              <li className="flex ">
+                <span className=" mr-8 ">{svg}</span>
                 FREE Mix Veg with Fried Potato Course
               </li>
               </div>
               <div>
-                <li className="flex items-center">
-                <span className=" mr-8 mb-7">{svg}</span>
+                <li className="flex ">
+                <span className=" mr-8 ">{svg}</span>
                 100% Veg recipes
               </li>
               </div>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2'>
+
+
+            <div className='grid grid-cols-1 mb-[30px] md:grid-cols-2'>
               <div>
-              <li className="flex items-center">
-                <span className=" mr-8 mb-7">{svg}</span>
+              <li className="flex ">
+                <span className=" mr-8 ">{svg}</span>
                 Step-by-step cooking video instructions + Detailed PDF notes
               </li>
               </div>
               <div>
-              <li className="flex items-center">
-                <span className=" mr-8 mb-7">{svg}</span>
+              <li className="flex ">
+                <span className=" mr-8 ">{svg}</span>
                 Doubt solving over call
               </li>
               </div>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2'>
+
+
+            <div className='grid grid-cols-1 mb-[30px] md:grid-cols-2'>
               <div>
-              <li className="flex items-center">
-                <span className="mr-8 mb-7">{svg}</span>
+              <li className="flex ">
+                <span className="mr-8">{svg}</span>
                 Learn from Experts
               </li>
               </div>
               <div>
-              <li className="flex items-center">
-                <span className=" mr-8 mb-7">{svg}</span>
+              <li className="flex ">
+                <span className=" mr-8 ">{svg}</span>
                 Explore new recipes every day
               </li>
               </div>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2'>
+
+
+
+            <div className='grid grid-cols-1 mb-[30px] md:grid-cols-2'>
               <div>
              
-              <li className="flex items-center">
-                <span className=" mr-8 mb-7">{svg}</span>
+              <li className="flex">
+                <span className=" mr-8 ">{svg}</span>
                 2,00,000+ Trained students
               </li>
               </div>
               <div>
-              <li className="flex items-center">
-                <span className="mr-8 mb-7">{svg}</span>
+              <li className="flex ">
+                <span className="mr-8 ">{svg}</span>
                 Free Lifetime Access
               </li>
               </div>

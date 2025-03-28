@@ -34,7 +34,7 @@ function SignupDetail() {
                 id="name"
                 type="text"
                 placeholder="John Doe"
-                className="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                className="mt-1 block w-full p-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F99106]"
               />
             </div>
             <div className="mb-4">
@@ -45,7 +45,7 @@ function SignupDetail() {
                 id="email"
                 type="email"
                 placeholder="Enter your Email here"
-                className="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                className="mt-1 block w-full p-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F99106]"
               />
             </div>
             <div className="mb-6">
@@ -56,7 +56,7 @@ function SignupDetail() {
                 id="password"
                 type="password"
                 placeholder="Enter your Password"
-                className="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                className="mt-1 block w-full p-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F99106]"
               />
             </div>
             <button
@@ -73,12 +73,12 @@ function SignupDetail() {
           <div className="mt-6 flex items-center justify-between">
             <span className="text-gray-500">OR</span>
           </div>
-          <div className="mt-4 flex space-x-3 w-full">
-            <button className="w-full flex text-base items-center justify-evenly p-2 bg-white border border-[#D2D2D2] hover:cursor-pointer">
-              <img src={google} alt="Google" className=" mr-2" /> Sign up with Google
+          <div className="mt-4 flex space-x-[24px] w-full">
+            <button className="w-full flex text-base items-center justify-evenly p-[6px] bg-white border border-[#D2D2D2] hover:cursor-pointer">
+              <img src={google} alt="Google"  /> Sign up with Google
             </button>
-            <button className="w-full text-base flex items-center justify-evenly   p-2 bg-white border border-[#D2D2D2] hover:cursor-pointer ">
-              <img src={facebook} alt="Facebook" className=" mr-2" heigth="50" width="50"/> Sign up with Facebook
+            <button className="w-full text-base flex items-center justify-evenly   p-[6px] bg-white border border-[#D2D2D2] hover:cursor-pointer ">
+              <img src={facebook} alt="Facebook"  heigth="50" width="50"/> Sign up with Facebook
             </button>
           </div>
         </div>

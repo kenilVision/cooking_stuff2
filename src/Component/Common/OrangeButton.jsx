@@ -9,6 +9,12 @@ function OrangeButton({text,onClick}) {
     <button
     className=" hover:cursor-pointer min-h-[74px] min-w-[194px] text-3xl gap-3 bg-[#F99106] text-white px-4 py-2 rounded-md flex items-center "
     onClick={onClick}
+    style={
+      {
+        boxShadow: '0px 0px 20px 0px #00000040'
+
+      }
+    }
   >
     {text}
     <span className="ml-2">{arrow}</span> 

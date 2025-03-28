@@ -41,7 +41,12 @@ function Footer() {
         window.location.replace(`/#${text}`)
       };
       
-      
+      const arrow =(
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.75 21L17.25 12L6.75 3V21Z" fill="#F99106"/>
+</svg>
+
+      )
 
   return (
     <>
@@ -72,9 +77,9 @@ function Footer() {
           <ul className=" pt-10 text-center sm:text-start space-y-10">
             {
           navigation.map(a => {
-              return  (<li className="text-xl text-gray-600 flex items-center">
-              <NavLink to={a.to}>
-                <span className="mr-2 text-[#f99106]">&#9656;</span>{a.text}
+              return  (<li className="text-xl text-black font-normal flex items-center">
+              <NavLink to={a.to} className='flex'>
+                <span className="mr-2 text-[#f99106]">{arrow}</span>{a.text}
                 </NavLink>
               </li>)
             } )
@@ -86,8 +91,8 @@ function Footer() {
           <ul className="pt-10 space-y-10">
           {
           Categories.map(a => {
-              return  (  <li className="text-xl text-gray-600 flex items-center hover:cursor-pointer" onClick={()=>{goto(`${a.to}`)}}>
-              <span className="mr-2 text-[#f99106]">&#9656;</span>{a.text}
+              return  (  <li className="text-xl text-black font-normal flex items-center hover:cursor-pointer" onClick={()=>{goto(`${a.to}`)}}>
+              <span className="mr-2 text-[#f99106]">{arrow}</span>{a.text}
             </li>)
             } )
 

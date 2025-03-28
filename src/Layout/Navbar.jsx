@@ -52,7 +52,7 @@ function Navbar() {
         
         {/* Navigation Links */}
         <div className="hidden lg:flex items-center">
-          <ul className="flex md:space-x-0 lg:space-x-4 xl:space-x-8">
+          <ul className="flex md:space-x-0 lg:space-x-4 xl:space-x-8 font-medium ">
             {navigation.map((x) => (
               <li key={x.to} className='p-3'>
                 <NavLink to={x.to} className="py-2 px-3 text-lg text-gray-700 hover:text-[#F99106] active:text-[#F99106]">
