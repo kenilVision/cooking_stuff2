@@ -1,11 +1,11 @@
 import React,{useRef} from 'react';
 import bg from '../../assets/Home/sec2/ebc436ec0b58d5a5d4f5d94363fc5ad1.png';
-import image1 from '../../assets/Home/sec2/card/Rectangle 11.jpg';
-import image2 from '../../assets/Home/sec2/card/Rectangle 11 (1).jpg';
-import image3 from '../../assets/Home/sec2/card/Rectangle 11 (2).jpg';
-import image4 from '../../assets/Home/sec2/card/Rectangle 11 (3).jpg';
-import image5 from '../../assets/Home/sec2/card/Rectangle 11 (4).jpg';
-import image6 from '../../assets/Home/sec2/card/Rectangle 11 (5).jpg';
+import image1 from '../../assets/Home/sec2/card/36301c826df4b8bc7a409a49a4239e57.png';
+import image2 from '../../assets/Home/sec2/card/732a7b0c5c8f99f65f1d585c8256c9b9.png';
+import image3 from '../../assets/Home/sec2/card/0a482dfb6bcadd0d841c4f08923cea1c.jpg';
+import image4 from '../../assets/Home/sec2/card/2157ea1a0f17d614a5d277d588a1c9b8.jpg';
+import image5 from '../../assets/Home/sec2/card/9319f8917466c55717050d065975464d.jpg';
+import image6 from '../../assets/Home/sec2/card/37705f0ac93ac69c2cae68ca14c4d092.jpg';
 import Card from '../../Component/Common/Card';
 
 
@@ -54,13 +54,13 @@ function Features() {
           }}
         ></div>
 
-        <div className="relative z-10 w-7xl  flex flex-col items-center">
-          <div className=" text-4xl sm:text-5xl  md:text-6xl text-black font-bold p-2">Featured</div>
-          <div className=" text-xl sm:text-2xl md:text-3xl text-gray-600 text-center p-2 w-full md:w-1/2">
+        <div className="relative  w-[1171px]  flex flex-col items-center">
+          <div className="font-bold text-[60px] leading-none tracking-normal  font-Yeseva p-[10px]">Featured</div>
+          <div className=" text-xl sm:text-2xl md:text-3xl text-[#00000080] text-center p-[10px] w-full md:w-1/2 font-poppin">
             We specialize in organizing professional training courses
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2    gap-x-10 gap-y-10 mt-10 lg:gap-x-5 lg:grid-cols-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2    gap-x-10 gap-y-10 mt-10 lg:gap-x-20 lg:grid-cols-3">
             {items.map((x, index) => (
               <Card key={index} image={x.image} text={x.text} course={x.course} />
             ))}

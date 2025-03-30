@@ -50,8 +50,8 @@ function Footer() {
 
   return (
     <>
-    <div className='flex justify-center bg-[#FFF2F2]'>
-        <div className="w-7xl p-10 flex flex-col items-center  ">
+    <div className='flex justify-center bg-[#FFF2F2] font-Yeseva'>
+        <div className="w-[1171px] pt-15 pb-[43px] flex flex-col items-center  ">
             <div className='w-fit text-4xl sm:text-5xl md:text-6xl font-bold pb-8' >
             Contact Us
             </div>
@@ -66,7 +66,7 @@ function Footer() {
                 />
             </div>
             <div className="text-2xl flex justify-center w-full   text-gray-600 lg:max-w-3xl">
-                <p className='text-center lg:text-start'>
+                <p className='text-center lg:text-start  font-poppin'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat nisi tortor tellus sagittis donec id est, dolor, morbi. Id facilisis sem sit maecenas metus, lacinia non. Lorem congue est at ultrices suscipit at nulla neque volutpat. Porta proin hdhhhjff.
                 </p>
             </div>

@@ -31,9 +31,9 @@ function ReadOurPost() {
         <>
           <div id="Posts" className="relative flex justify-center pt-15 pb-15 bg-[#FFF2F2] ">
     
-            <div className="relative z-10 w-7xl  flex flex-col items-center">
-              <div className=" text-4xl sm:text-5xl  md:text-6xl text-black font-bold p-2">Read Our Post</div>
-              <div className=" text-xl sm:text-2xl md:text-3xl text-gray-600 text-center p-2 w-2/3">
+            <div className="relative z-10 w-[1171px]  flex flex-col items-center">
+              <div className=" font-bold text-[60px] leading-none tracking-normal  font-Yeseva p-[10px]">Read Our Post</div>
+              <div className="text-xl sm:text-2xl md:text-3xl text-[#00000080] text-center p-[10px] w-full  font-poppin2 w-2/3">
               We Specialise in organising Professional Traning Courses
           </div>
     

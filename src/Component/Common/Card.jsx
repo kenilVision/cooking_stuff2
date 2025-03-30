@@ -14,7 +14,7 @@ const Card = ({ image, text , course}) => {
       window.scrollTo(0, 0);
     }
   return (
-    <div className="bg-white rounded-xl max-w-sm p-0 hover:cursor-pointer"
+    <div className="bg-white rounded-[10px] max-w-sm p-0 hover:cursor-pointer font-poppin"
     style={{
       boxShadow:"0px 1px 4px 0px #00000040"
     }}
@@ -27,29 +27,29 @@ const Card = ({ image, text , course}) => {
         <img
           src={image}
           alt=" (Lifetime Access)"
-          className="w-full m-0 p-0 object-contain"
+          className="w-full  object-cover rounded-t-[10px] h-[249px] w-[337px]"
         />
       </div>
 
 
-      <div className="p-4">
+      <div className="pt-[10px] px-[16px] pb-[15px]">
   
-        <h3 className="text-[26px] font-medium mb-4 ">
+        <h3 className="text-[26px] font-medium mb-4  ">
           {text} (Lifetime Access)
         </h3>
 
 
-        <div className="flex items-center text-2xl mb-4 ">
-          <span className="text-[#F99106] flex gap-2 items-center">4.2 {star}{star}{star}{star}{star} </span>
+        <div className="flex items-center text-2xl  mt-[14px] ">
+          <span className="text-[#F99106] flex gap-2 items-center font-medium ">4.2 {star}{star}{star}{star}{star} </span>
           <span className="text-[#7B7B7B] font-normal ml-2">(2,002)</span>
         </div>
 
         
-        <div className="flex items-center text-3xl mb-4">
-          <span className="font-normal text-black">₹500</span>
+        <div className="flex items-center text-3xl  mt-[14px]  ">
+          <span className="font-normal text-black pe-1">₹500</span>
           <span className="text-[#7B7B7B] line-through ml-2">₹5,000</span>
         </div>
-        <div className="flex items-center  ">
+        <div className="flex items-center mt-[14px] ">
           {course?<Badge text={course}/>:""}
          
         </div>

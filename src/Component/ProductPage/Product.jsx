@@ -162,10 +162,10 @@ const icon=[
       <div className="w-7xl mx-auto lg:flex  ">
         <div className=' w-full lg:w-1/3 lg:pe-[30px]'>
           <div className=" p-6 rounded-lg  bg-[#FFF2F2]">
-            <div className="text-2xl font-bold mb-4 text-center p-5 border-b-[.5px] border-[#F99106]">$420.38</div>
-            <div className=" text-lg text-gray-600">
+            <div className="text-2xl font-bold text-center p-5 border-b-[1px] border-[#F99106]">$420.38</div>
+            <div className=" text-lg text-[#00000080]">
               {
-                data.map((a)=><div className="p-5 flex justify-between border-b-1 border-[#F99106]"><strong className='flex gap-3 text-black'> {a.svg}{a.title}</strong> {a.text}</div>)
+                data.map((a)=><div className="py-5 flex justify-between border-b-1 border-[#F99106]"><strong className='flex gap-3 text-black'> {a.svg}{a.title}</strong> {a.text}</div>)
               }
             </div>
             <button className=" hover:cursor-pointer mt-7 bg-[#F99106] text-2xl text-white  p-4 rounded-full   w-full">
@@ -174,8 +174,8 @@ const icon=[
 
           </div>
           <div className="my-5 lg:mt-6  flex  lg:block">
-            <h3 className="font-bold  text-2xl sm:text-3xl md:text-4xl lg:mb-10 me-3 text-center">Share Course:</h3>
-            <div className="flex justify-center items-center space-x-4">
+            <h3 className="font-bold  text-2xl sm:text-3xl md:text-4xl lg:mb-10 me-3 text-center md:text-start">Share Course:</h3>
+            <div className="flex justify-center md:justify-start items-center space-x-4">
               {
                 icon.map((a)=><a href="#">{a.svg}</a>)
               }
@@ -184,7 +184,7 @@ const icon=[
         </div>
         <div className="flex  flex-col w-full lg:w-2/3">
 
-          <div className="mb-4">
+          <div className="mb-5">
             <img
               className=" w-full max-h-[449px]"
               src={image}
@@ -194,13 +194,13 @@ const icon=[
             />
           </div>
           <div className="mb-5   text-3xl font-bold">All in one Pack</div>
-          <div className='flex'>
+          <div className='flex mb-5'>
           <div className='md:flex justify-between'>
           <img src={Profile}  className="w-12 h-12 me-5 rounded-full" />
           </div>
-          <div className="text-lg text-gray-500 w-full  md:flex justify-between">
+          <div className="text-lg text-[#00000080] w-full  md:flex justify-between">
             <div className='flex items-center  md:m-0'>By:<span className='text-black'> Zibiah Surya </span></div>
-            <div className='flex items-center  my-2 md:m-0'><span className='text-[#f99106] '>300</span> Enrolled Students</div>
+            <div className='flex items-center gap-1 my-2 md:m-0'><span className='text-[#f99106] '>300 </span> Enrolled Students</div>
             <div className='flex items-center  gap-2  md:m-0'><span className='text-[#f99106]'>4.2</span> {star}{star}{star}{star}{star} (2,002 Reviews)</div>
           </div>
           </div>

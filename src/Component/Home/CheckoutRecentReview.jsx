@@ -100,9 +100,9 @@ function CheckoutRecentReview() {
           }}
         ></div>
 
-        <div className="relative z-10 w-7xl  flex flex-col items-center">
-          <div className=" text-4xl sm:text-5xl md:text-6xl text-black font-bold p-2">Check out Recent Review</div>
-          <div className="text-xl sm:text-2xl md:text-3xl text-gray-600 text-center p-2 w-full md:w-3/4">
+        <div className="relative z-10 w-[1171px]  flex flex-col items-center">
+          <div className="font-bold text-[60px] leading-none tracking-normal  font-Yeseva p-[10px]">Check out Recent Review</div>
+          <div className="text-xl sm:text-2xl md:text-3xl text-[#00000080] text-center p-[10px] w-full font-poppin md:w-3/4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan neque pellentesque lorem eu sollicitudin congue ut amet. 
           </div>
 

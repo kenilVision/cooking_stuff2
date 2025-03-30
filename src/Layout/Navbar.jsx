@@ -42,8 +42,8 @@ function Navbar() {
       boxShadow: '0px 0px 10px 0px #00000040'
     }}
     >
-    <div className="w-7xl ">
-      <nav className="bg-white flex justify-between items-center w-full p-4">
+    <div className="w-[1171px] ">
+      <nav className="bg-white flex justify-between items-center w-full p-5">
         <div className="flex items-center">
           <a className="items-center space-x-3">
             <img src={Group} width="158" height="65" alt="Cooking Stuff Logo" />
@@ -52,10 +52,14 @@ function Navbar() {
         
         {/* Navigation Links */}
         <div className="hidden lg:flex items-center">
-          <ul className="flex md:space-x-0 lg:space-x-4 xl:space-x-8 font-medium ">
+          <ul className="flex md:space-x-0 lg:space-x-4 xl:space-x-8  font-bold font-Yeseva ">
             {navigation.map((x) => (
-              <li key={x.to} className='p-3'>
-                <NavLink to={x.to} className="py-2 px-3 text-lg text-gray-700 hover:text-[#F99106] active:text-[#F99106]">
+              <li key={x.to} >
+                <NavLink to={x.to} className= {({ isActive }) =>
+                                                   `p-[10px] text-lg hover:text-[#F99106] ${
+                                                     isActive ? "text-[#F99106]" : "text-[#00000080]"
+                                                          }`
+                                                        }>
                   {x.text}
                 </NavLink>
               </li>
@@ -82,7 +86,7 @@ function Navbar() {
         <NavLink
             to='/Signin'
             type="button" 
-            className=" text-gray-700 font-medium hover:cursor-pointer hidden justify-center items-center lg:flex px-4">
+            className=" font-medium hover:cursor-pointer hidden justify-center items-center lg:flex px-4 text-[#00000080]">
             Sign In
           </NavLink>
           <div className='flex justify-center items-center'>

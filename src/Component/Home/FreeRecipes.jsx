@@ -1,8 +1,7 @@
 import React from 'react';
-import bg from '../../assets/Home/sec2/ebc436ec0b58d5a5d4f5d94363fc5ad1.png';
-import image1 from '../../assets/Home/FreeRecepies/Rectangle 11 (6).jpg';
-import image2 from '../../assets/Home/FreeRecepies/Rectangle 11 (7).jpg';
-import image3 from '../../assets/Home/FreeRecepies/Rectangle 11 (8).jpg';
+import image1 from '../../assets/Home/FreeRecepies/d50d5e0980213923ad2536f80ce4f134.png';
+import image2 from  '../../assets/Home/FreeRecepies/732a7b0c5c8f99f65f1d585c8256c9b9.png' ;
+import image3 from "../../assets/Home/FreeRecepies/0a482dfb6bcadd0d841c4f08923cea1c.jpg" ;
 import OrangeButton from '../Common/OrangeButton';
 import Card from '../../Component/Common/Card';
 
@@ -29,10 +28,10 @@ import Card from '../../Component/Common/Card';
       <>
         <div id="FreeRecipes" className="relative flex justify-center pt-15 pb-15 bg-[#FFF2F2] ">
   
-          <div className="relative z-10 w-7xl flex flex-col items-center">
-            <div className="text-4xl sm:text-5xl md:text-6xl text-black font-bold p-2">Free Recipes</div>
+          <div className="relative z-10 w-[1171px] flex flex-col items-center">
+            <div className="font-bold text-[60px] leading-none tracking-normal  font-Yeseva p-[10px]">Free Recipes</div>
   
-            <div className="grid grid-cols-1 sm:grid-cols-2    gap-x-10 gap-y-10 mt-10 lg:gap-x-5 lg:grid-cols-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2    gap-x-10 gap-y-10 mt-10 lg:gap-x-20 lg:grid-cols-3">
               {items.map((x, index) => (
                 <Card key={index} image={x.image} text={x.text} course={x.course} />
               ))}

@@ -9,9 +9,9 @@ function SignupDetail() {
 
   return (
     <div className=" flex  justify-center z-0 ">
-      <div className="max-w-7xl w-full md:flex ">
+      <div className="max-w-[1440px] w-full h-full md:flex ">
   
-        <div className=" w-full md:w-1/2 p-10 md:p-22 flex items-center justify-center relative">
+        <div className=" w-full md:w-1/2 p-10 md:p-12 h-max flex items-center border-r-1 border-r-[#00000080] justify-center relative">
           <div className="  flex items-center justify-center">
             <div className="flex flex-wrap justify-center">
            
@@ -23,8 +23,8 @@ function SignupDetail() {
           </div>
         </div>
         {/* Right Section: Signup Form */}
-        <div className="w-full md:w-1/2 p-10 md:p-12 flex flex-col justify-center items-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6 ">Welcome to Jammy</h2>
+        <div className="w-full md:w-1/2 p-10 md:p-[91px] flex flex-col justify-center items-center font-poppin">
+          <h2 className="text-[48px] font-semibold text-[#043133] mb-6 ">Welcome to Jammy</h2>
           <form className='w-full flex flex-col justify-center '>
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700" htmlFor="name">
@@ -61,19 +61,18 @@ function SignupDetail() {
             </div>
             <button
               type="submit"
-              className="w-1/2 py-2 bg-[#F99106] text-white mx-auto text-2xly
-               focus:outline-none focus:ring-2 hover:cursor-pointer"
+              className="w-1/2 py-2 bg-[#F99106] text-[26px]  text-white mx-auto font-medium mt-[50px] focus:outline-none focus:ring-2 hover:cursor-pointer"
             >
               Create Account
             </button>
           </form>
-          <p className="mt-4 text-sm text-gray-500">
+          <p className="mt-[24px] text-sm ">
             Already have an account? <a href="#" className="text-[#F99106] hover:underline">Log in</a>
           </p>
-          <div className="mt-6 flex items-center justify-between">
+          <div className="mt-[34px] flex items-center justify-between">
             <span className="text-gray-500">OR</span>
           </div>
-          <div className="mt-4 flex space-x-[24px] w-full">
+          <div className="mt-[24px] flex space-x-[24px] w-full">
             <button className="w-full flex text-base items-center justify-evenly p-[6px] bg-white border border-[#D2D2D2] hover:cursor-pointer">
               <img src={google} alt="Google"  /> Sign up with Google
             </button>

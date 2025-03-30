@@ -7,7 +7,7 @@ function OrangeButton({text,onClick}) {
     )
   return (
     <button
-    className=" hover:cursor-pointer min-h-[74px] min-w-[194px] text-3xl gap-3 bg-[#F99106] text-white px-4 py-2 rounded-md flex items-center "
+    className=" hover:cursor-pointer min-h-[74px] min-w-[194px] text-3xl gap-3 bg-[#F99106] text-white p-[15px] rounded-md flex items-center justify-between font-poppin "
     onClick={onClick}
     style={
       {

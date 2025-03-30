@@ -13,9 +13,9 @@ function Banner() {
       >
         <div className={`w-7xl h-auto flex flex-col  justify-center`}>
               
-                <div className='text-black text-[42px] font-bold '>Course Details</div>
-                <div className=' text-xl font-bold mb-5 '>
-                Home //<span className='text-[#F99106]'>Courses</span> 
+                <div className='text-black text-[42px] font-bold font-Yeseva '>Course Details</div>
+                <div className=' text-xl font-bold mt-[30px] font-poppin '>
+                Home //<span className='text-[#F99106]'> Courses</span> 
                 </div>
               
                </div>
