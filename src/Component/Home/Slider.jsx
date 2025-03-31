@@ -5,7 +5,7 @@ import image3 from '../../assets/Home/Slider/image3.png';
 import live from '../../assets/Home/Slider/Group 4.png'
 function Slider() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const totalSlides = 1;
+  const totalSlides = 2;
 
   const nextSlide = () => {
     setCurrentIndex((currentIndex + 1) % totalSlides);
