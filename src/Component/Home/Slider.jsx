@@ -153,17 +153,17 @@ function Slider() {
       <div className="absolute z-30 flex -translate-x-1/2 bottom-[2.1875rem] left-1/2 space-x-[0.8125rem] rtl:space-x-reverse">
         <button
           type="button"
-          className={`w-5 h-5 rounded-full ${currentIndex === 0 ? 'bg-[#F99106]' : 'bg-white'}`}
+          className={`w-5 h-5 rounded-full hover:cursor-pointer ${currentIndex === 0 ? 'bg-[#F99106]' : 'bg-white'}`}
           onClick={() => setCurrentIndex(0)}
         ></button>
         <button
           type="button"
-          className={`w-5 h-5 rounded-full ${currentIndex === 1 ? 'bg-[#F99106]' : 'bg-white'}`}
+          className={`w-5 h-5 rounded-full hover:cursor-pointer ${currentIndex === 1 ? 'bg-[#F99106]' : 'bg-white'}`}
           onClick={() => setCurrentIndex(1)}
         ></button>
         <button
           type="button"
-          className={`w-5 h-5 rounded-full ${currentIndex === 2 ? 'bg-[#F99106]' : 'bg-white'}`}
+          className={`w-5 h-5 rounded-full hover:cursor-pointer ${currentIndex === 2 ? 'bg-[#F99106]' : 'bg-white'}`}
           onClick={() => setCurrentIndex(2)}
         ></button>
       </div>

@@ -24,11 +24,12 @@ function PostCard({image,title,text,date}) {
 
 
     <button
-      className="text-[#F99106] text-xl font-bold mt-5 hover:cursor-pointer font-Yeseva"
-      
-    >
-      READ MORE »
-    </button>
+  className="text-[#F99106] text-xl font-bold mt-5 inline-flex items-center gap-2 hover:cursor-pointer font-Yeseva"
+>
+  READ MORE <span style={{
+    marginTop:'-4px'
+  }}>»</span> 
+</button>
   </div>
   </div>
   )

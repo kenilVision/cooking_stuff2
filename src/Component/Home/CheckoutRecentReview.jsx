@@ -115,17 +115,17 @@ function CheckoutRecentReview() {
           <div className=" z-30 flex justify-center absolute bottom-5 left-1/2 translate-x-[-50%] space-x-3 rtl:space-x-reverse">
         <button
           type="button"
-          className={`w-5 h-5 rounded-full ${currentIndex === 0 ? 'bg-[#F99106]' : 'bg-[#FFE1E1]'}`}
+          className={`w-5 h-5 rounded-full hover:cursor-pointer ${currentIndex === 0 ? 'bg-[#F99106]' : 'bg-[#FFE1E1]'}`}
           onClick={() => setCurrentIndex(0)}
         ></button>
         <button
           type="button"
-          className={`w-5 h-5 rounded-full ${currentIndex === 1 ? 'bg-[#F99106]' : 'bg-[#FFE1E1]'}`}
+          className={`w-5 h-5 rounded-full hover:cursor-pointer ${currentIndex === 1 ? 'bg-[#F99106]' : 'bg-[#FFE1E1]'}`}
           onClick={() => setCurrentIndex(1)}
         ></button>
         <button
           type="button"
-          className={`w-5 h-5 rounded-full ${currentIndex === 2 ? 'bg-[#F99106]' : 'bg-[#FFE1E1]'}`}
+          className={`w-5 h-5 rounded-full hover:cursor-pointer ${currentIndex === 2 ? 'bg-[#F99106]' : 'bg-[#FFE1E1]'}`}
           onClick={() => setCurrentIndex(2)}
         ></button>
       </div>
