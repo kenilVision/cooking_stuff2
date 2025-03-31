@@ -5,37 +5,64 @@ import Posts from '../Page/Posts'
 import SignUp from '../Page/SignUp';
 import ProductPage from '../Page/ProductPage';
 import Signin from '../Page/Signin';
-
+import Protected from '../ProtectedWrapper/Protected';
 
 export const roots = [    
     {
         path: '/',
-        element: <Home />
+        element: (
+            <Protected>
+                <Home />
+            </Protected>
+        )
     },
     {
         path: '/AllCourse',
-        element: <AllCourse />
+        element: ( 
+        <Protected>
+            <AllCourse />
+        </Protected>
+
+        )
     },
     {
         path: '/ContactUs',
-        element: <ContactUs />
+        element:( 
+            <Protected>
+                <ContactUs />
+            </Protected>
+    
+            ) 
     },
     { 
         path: '/Posts', 
-        element: <Posts />
-    }
-    ,
-    { 
-        path: '/SignUp', 
-        element: <SignUp />
-    },
-    { 
-        path: '/Signin', 
-        element: <Signin />
+        element: ( 
+            <Protected>
+                <Posts />
+            </Protected>
+    
+            )  
     },
     { 
         path: '/CourseDetail', 
-        element: <ProductPage />
+        element: ( 
+            <Protected>
+               <ProductPage />
+            </Protected>
+    
+            )  
     }
 
+];
+
+
+export const publicRoute = [
+    { 
+        path: '/SignUp',
+         element: <SignUp />
+        },
+    { 
+        path: '/Signin', 
+        element: <Signin />
+    }
 ];
