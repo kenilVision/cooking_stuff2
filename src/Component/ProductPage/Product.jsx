@@ -112,7 +112,7 @@ function product() {
       },]
 
 const icon=[
-        {svg:(<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        {svg:(<svg width="2.5rem" height="2.5rem" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_2_2579)">
           <path d="M30.5583 30.565H26.1167V23.6033C26.1167 21.9433 26.0833 19.8067 23.8 19.8067C21.485 19.8067 21.1317 21.6133 21.1317 23.4817V30.565H16.6883V16.25H20.955V18.2H21.0133C21.61 17.0767 23.06 15.8883 25.2267 15.8883C29.7267 15.8883 30.56 18.8517 30.56 22.7067V30.565H30.5583ZM11.6717 14.2917C11.3326 14.2921 10.9968 14.2256 10.6834 14.096C10.3701 13.9664 10.0854 13.7762 9.84576 13.5364C9.60608 13.2966 9.41609 13.0118 9.28668 12.6984C9.15728 12.3849 9.09101 12.0491 9.09167 11.71C9.092 11.1997 9.24363 10.701 9.5274 10.2769C9.81117 9.85281 10.2143 9.52239 10.6859 9.32742C11.1574 9.13245 11.6762 9.08169 12.1766 9.18157C12.677 9.28144 13.1366 9.52746 13.4972 9.88851C13.8578 10.2496 14.1032 10.7094 14.2024 11.21C14.3016 11.7105 14.2502 12.2292 14.0546 12.7005C13.8591 13.1718 13.5281 13.5746 13.1037 13.8578C12.6792 14.141 12.1803 14.292 11.67 14.2917H11.6717ZM13.8983 30.565H9.44333V16.25H13.9V30.565H13.8983ZM32.7833 5H7.215C5.98833 5 5 5.96667 5 7.16167V32.8383C5 34.0333 5.99 35 7.21333 35H32.7767C34 35 35 34.0333 35 32.8383V7.16167C35 5.96667 34 5 32.7767 5H32.7817H32.7833Z" fill="black" fill-opacity="0.5"/>
           </g>
@@ -122,7 +122,7 @@ const icon=[
           </clipPath>
           </defs>
           </svg>)},
-          {svg:( <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          {svg:( <svg width="2.5rem" height="2.5rem" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_2_2576)">
               <path d="M23.3334 22.4999H27.5001L29.1667 15.8333H23.3334V12.4999C23.3334 10.7833 23.3334 9.16659 26.6667 9.16659H29.1667V3.56659C28.6234 3.49492 26.5717 3.33325 24.4051 3.33325C19.8801 3.33325 16.6667 6.09492 16.6667 11.1666V15.8333H11.6667V22.4999H16.6667V36.6666H23.3334V22.4999Z" fill="black" fill-opacity="0.5" />
             </g>
@@ -132,7 +132,7 @@ const icon=[
               </clipPath>
             </defs>
           </svg>)},
-          {svg:(<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          {svg:(<svg width="2.5rem" height="2.5rem" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_2_2573)">
               <path d="M19.9999 3.33325C24.5283 3.33325 25.0933 3.34992 26.8699 3.43325C28.6449 3.51659 29.8533 3.79492 30.9166 4.20825C32.0166 4.63159 32.9433 5.20492 33.8699 6.12992C34.7174 6.96308 35.3732 7.9709 35.7916 9.08325C36.2033 10.1449 36.4833 11.3549 36.5666 13.1299C36.6449 14.9066 36.6666 15.4716 36.6666 19.9999C36.6666 24.5283 36.6499 25.0933 36.5666 26.8699C36.4833 28.6449 36.2033 29.8533 35.7916 30.9166C35.3744 32.0295 34.7185 33.0376 33.8699 33.8699C33.0365 34.7171 32.0288 35.3728 30.9166 35.7916C29.8549 36.2033 28.6449 36.4833 26.8699 36.5666C25.0933 36.6449 24.5283 36.6666 19.9999 36.6666C15.4716 36.6666 14.9066 36.6499 13.1299 36.5666C11.3549 36.4833 10.1466 36.2033 9.08325 35.7916C7.97046 35.374 6.96246 34.7182 6.12992 33.8699C5.28226 33.0369 4.62647 32.029 4.20825 30.9166C3.79492 29.8549 3.51659 28.6449 3.43325 26.8699C3.35492 25.0933 3.33325 24.5283 3.33325 19.9999C3.33325 15.4716 3.34992 14.9066 3.43325 13.1299C3.51659 11.3533 3.79492 10.1466 4.20825 9.08325C4.62531 7.97022 5.28126 6.96212 6.12992 6.12992C6.9627 5.28197 7.97063 4.62613 9.08325 4.20825C10.1466 3.79492 11.3533 3.51659 13.1299 3.43325C14.9066 3.35492 15.4716 3.33325 19.9999 3.33325ZM19.9999 11.6666C17.7898 11.6666 15.6702 12.5446 14.1074 14.1074C12.5446 15.6702 11.6666 17.7898 11.6666 19.9999C11.6666 22.2101 12.5446 24.3297 14.1074 25.8925C15.6702 27.4553 17.7898 28.3333 19.9999 28.3333C22.2101 28.3333 24.3297 27.4553 25.8925 25.8925C27.4553 24.3297 28.3333 22.2101 28.3333 19.9999C28.3333 17.7898 27.4553 15.6702 25.8925 14.1074C24.3297 12.5446 22.2101 11.6666 19.9999 11.6666ZM30.8333 11.2499C30.8333 10.6974 30.6138 10.1675 30.2231 9.77678C29.8324 9.38608 29.3025 9.16659 28.7499 9.16659C28.1974 9.16659 27.6675 9.38608 27.2768 9.77678C26.8861 10.1675 26.6666 10.6974 26.6666 11.2499C26.6666 11.8025 26.8861 12.3324 27.2768 12.7231C27.6675 13.1138 28.1974 13.3333 28.7499 13.3333C29.3025 13.3333 29.8324 13.1138 30.2231 12.7231C30.6138 12.3324 30.8333 11.8025 30.8333 11.2499ZM19.9999 14.9999C21.326 14.9999 22.5978 15.5267 23.5355 16.4644C24.4731 17.4021 24.9999 18.6738 24.9999 19.9999C24.9999 21.326 24.4731 22.5978 23.5355 23.5355C22.5978 24.4731 21.326 24.9999 19.9999 24.9999C18.6738 24.9999 17.4021 24.4731 16.4644 23.5355C15.5267 22.5978 14.9999 21.326 14.9999 19.9999C14.9999 18.6738 15.5267 17.4021 16.4644 16.4644C17.4021 15.5267 18.6738 14.9999 19.9999 14.9999Z" fill="black" fill-opacity="0.5" />
             </g>
@@ -142,7 +142,7 @@ const icon=[
               </clipPath>
             </defs>
           </svg>)},
-          {svg:(<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          {svg:(<svg width="2.5rem" height="2.5rem" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_2_2570)">
               <path d="M22.1834 34C19.9795 34.3443 17.7255 34.1633 15.6049 33.4717C13.4842 32.7802 11.5568 31.5977 9.9796 30.0204C8.40236 28.4432 7.21985 26.5158 6.52831 24.3951C5.83678 22.2745 5.65577 20.0205 6.00002 17.8167C5.13124 16.1642 4.81378 14.2772 5.09403 12.4314C5.37429 10.5856 6.23757 8.87783 7.5577 7.5577C8.87783 6.23757 10.5856 5.37429 12.4314 5.09403C14.2772 4.81378 16.1642 5.13124 17.8167 6.00002C20.0205 5.65577 22.2745 5.83678 24.3951 6.52831C26.5158 7.21985 28.4432 8.40236 30.0204 9.9796C31.5977 11.5568 32.7802 13.4842 33.4717 15.6049C34.1633 17.7255 34.3443 19.9795 34 22.1834C34.8688 23.8358 35.1863 25.7229 34.906 27.5687C34.6257 29.4144 33.7625 31.1222 32.4423 32.4423C31.1222 33.7625 29.4144 34.6257 27.5687 34.906C25.7229 35.1863 23.8358 34.8688 22.1834 34ZM20.0867 28.5934H20.02C24.8067 28.5934 27.1917 26.2834 27.1917 23.1884C27.1917 21.1917 26.2734 19.07 22.6484 18.2584L19.3434 17.525C18.085 17.2384 16.64 16.8584 16.64 15.6667C16.64 14.475 17.6734 13.645 19.5134 13.645C23.23 13.645 22.8917 16.1917 24.7317 16.1917C25.6917 16.1917 26.5534 15.6217 26.5534 14.6417C26.5534 12.3584 22.8917 10.6417 19.7934 10.6417C16.425 10.6417 12.8384 12.0734 12.8384 15.8817C12.8384 17.7117 13.495 19.665 17.105 20.57L21.5867 21.6884C22.9467 22.025 23.2834 22.7867 23.2834 23.475C23.2834 24.62 22.1434 25.7384 20.0867 25.7384C16.0584 25.7384 16.6234 22.6434 14.4634 22.6434C13.4967 22.6434 12.7917 23.3067 12.7917 24.2617C12.7917 26.1184 15.045 28.5917 20.0867 28.5917V28.5934Z" fill="black" fill-opacity="0.5" />
             </g>
@@ -159,10 +159,10 @@ const icon=[
 
   return (
     <div className=" flex justify-center pt-15  pb-15 bg-[#FFF] ">
-      <div className="w-7xl mx-auto lg:flex  ">
-        <div className=' w-full lg:w-1/3 lg:pe-[30px]'>
+      <div className="w-[73.1875rem] px-5 mx-auto lg:flex  ">
+        <div className=' w-full lg:w-1/3 lg:pe-[1.875rem]'>
           <div className=" p-6 rounded-lg  bg-[#FFF2F2]">
-            <div className="text-2xl font-bold text-center p-5 border-b-[1px] border-[#F99106]">$420.38</div>
+            <div className="text-2xl font-bold text-center p-5 border-b-[0.0625rem] border-[#F99106]">$420.38</div>
             <div className=" text-lg text-[#00000080] font-poppin">
               {
                 data.map((a)=><div className="py-5 flex justify-between border-b-1 border-[#F99106]"><strong className='flex gap-3 text-black'> {a.svg}{a.title}</strong> {a.text}</div>)
@@ -186,7 +186,7 @@ const icon=[
 
           <div className="mb-5">
             <img
-              className=" w-full max-h-[449px]"
+              className=" w-full max-h-[28rem]"
               src={image}
               alt="Course"
               width="770"
@@ -210,19 +210,19 @@ const icon=[
               boxShadow: '0px 1px 3px 0px #00000040'
             }}
           >
-            <h3 className="font-bold  text-[34px] font-Yeseva ">Details</h3>
+            <h3 className="font-bold  text-[2.125rem] font-Yeseva ">Details</h3>
           </div>
           <div className=' text-lg md:text-xl lg:text-2xl font-normal font-poppin'>
          
-            <div className='grid grid-cols-1 mb-0 md:mb-[30px] md:grid-cols-2'>
+            <div className='grid grid-cols-1 mb-0 md:mb-[1.875rem] md:grid-cols-2'>
               <div>
-              <li className="flex min-h-[56px] md:min-h-0 ">
+              <li className="flex min-h-[3.5rem] md:min-h-0 ">
                 <span className=" mr-8 ">{svg}</span>
                 FREE Mix Veg with Fried Potato Course
               </li>
               </div>
               <div>
-                <li className="flex min-h-[56px] md:min-h-0">
+                <li className="flex min-h-[3.5rem] md:min-h-0">
                 <span className=" mr-8 ">{svg}</span>
                 100% Veg recipes
               </li>
@@ -230,15 +230,15 @@ const icon=[
             </div>
 
 
-            <div className='grid grid-cols-1  mb-0 md:mb-[30px] md:grid-cols-2'>
+            <div className='grid grid-cols-1  mb-0 md:mb-[1.875rem] md:grid-cols-2'>
               <div>
-              <li className="flex min-h-[56px] md:min-h-0 ">
+              <li className="flex min-h-[3.5rem] md:min-h-0 ">
                 <span className=" mr-8 ">{svg}</span>
                 Step-by-step cooking video instructions + Detailed PDF notes
               </li>
               </div>
               <div>
-              <li className="flex min-h-[56px] md:min-h-0 ">
+              <li className="flex min-h-[3.5rem] md:min-h-0 ">
                 <span className=" mr-8 ">{svg}</span>
                 Doubt solving over call
               </li>
@@ -246,15 +246,15 @@ const icon=[
             </div>
 
 
-            <div className='grid grid-cols-1  mb-0 md:mb-[30px] md:grid-cols-2'>
+            <div className='grid grid-cols-1  mb-0 md:mb-[1.875rem] md:grid-cols-2'>
               <div>
-              <li className="flex min-h-[56px] md:min-h-0">
+              <li className="flex min-h-[3.5rem] md:min-h-0">
                 <span className="mr-8">{svg}</span>
                 Learn from Experts
               </li>
               </div>
               <div>
-              <li className="flex min-h-[56px] md:min-h-0">
+              <li className="flex min-h-[3.5rem] md:min-h-0">
                 <span className=" mr-8 ">{svg}</span>
                 Explore new recipes every day
               </li>
@@ -263,16 +263,16 @@ const icon=[
 
 
 
-            <div className='grid grid-cols-1  mb-0 md:mb-[30px] md:grid-cols-2'>
+            <div className='grid grid-cols-1  mb-0 md:mb-[1.875rem] md:grid-cols-2'>
               <div>
              
-              <li className="flex min-h-[56px] md:min-h-0">
+              <li className="flex min-h-[3.5rem] md:min-h-0">
                 <span className=" mr-8 ">{svg}</span>
                 2,00,000+ Trained students
               </li>
               </div>
               <div>
-              <li className="flex min-h-[56px] md:min-h-0 ">
+              <li className="flex min-h-[3.5rem] md:min-h-0 ">
                 <span className="mr-8 ">{svg}</span>
                 Free Lifetime Access
               </li>

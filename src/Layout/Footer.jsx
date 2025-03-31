@@ -51,8 +51,8 @@ function Footer() {
   return (
     <>
     <div className='flex justify-center bg-[#FFF2F2] font-Yeseva'>
-        <div className="w-[1171px] pt-15 pb-[43px] flex flex-col items-center  ">
-            <div className='w-fit text-4xl sm:text-5xl md:text-6xl font-bold pb-8' >
+        <div className="w-[73.1875rem]  p-5 pt-15 pb-[2.6875rem] flex flex-col items-center  ">
+            <div className='w-fit text-6xl font-bold pb-8' >
             Contact Us
             </div>
             <div className="w-full flex flex-col justify-center lg:flex-row lg:justify-between  gap-5 pb-8">
@@ -62,10 +62,10 @@ function Footer() {
                 width="298"
                 height="122.6"
                 alt="Cooking Stuff Logo"
-                className="w-[298px] h-[122.6px]"
+                className="w-[18.625rem] h-[7.6625rem]"
                 />
             </div>
-            <div className=" text-lg sm:text-xl md:text-2xl flex justify-center w-full   text-gray-600 lg:max-w-3xl">
+            <div className=" text-2xl flex justify-center w-full   text-gray-600 lg:max-w-3xl">
                 <p className='text-center lg:text-start  font-poppin'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat nisi tortor tellus sagittis donec id est, dolor, morbi. Id facilisis sem sit maecenas metus, lacinia non. Lorem congue est at ultrices suscipit at nulla neque volutpat. Porta proin hdhhhjff.
                 </p>

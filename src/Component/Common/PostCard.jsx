@@ -2,19 +2,25 @@ import React from 'react'
 
 function PostCard({image,title,text,date}) {
   return (
-    <div className="max-w-sm font-poppin">
+    <div className=" w-full font-poppin">
+       {/* <div className="p-0 ">
     <img src={image} alt={title} className="w-full h-48 rounded-tl-3xl rounded-br-3xl object-cover " />
+    </div> */}
+    <div className="h-[14.9rem] overflow-hidden">
+        <img src={image}  className="w-full h-full rounded-tl-3xl rounded-br-3xl object-cover" />
+      </div>
 
 
-    <h3 className="text-[28px] font-medium  mt-10">{title}</h3>
+    <div className=" mt-10 ">
+    <h3 className="text-[1.75rem] font-medium ">{title}</h3>
 
 
-    <p className="text-[#00000080] text-xl mt-[3px]">
+    <p className="text-[#00000080] text-xl mt-[0.1875rem]">
       {date} 
     </p>
 
 
-    <p className=" text-lg mt-[10px]">{text}</p>
+    <p className=" text-lg mt-[0.625rem]">{text}</p>
 
 
     <button
@@ -23,6 +29,7 @@ function PostCard({image,title,text,date}) {
     >
       READ MORE »
     </button>
+  </div>
   </div>
   )
 }

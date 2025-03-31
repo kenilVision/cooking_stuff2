@@ -10,3 +10,38 @@
   --font-poppin:"Poppins", sans-serif;
   --font-Yeseva:"Yeseva One";
 } 
+
+
+:root {
+  font-size: 16px; 
+}
+
+@media (max-width: 1240px) {
+  :root {
+    font-size: 15px; 
+  }
+}
+
+@media (max-width: 1040px) {
+  :root {
+    font-size: 14px; 
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 12px; 
+  }
+}
+
+@media (max-width: 425px) {
+  :root {
+    font-size: 11px; 
+  }
+}
+
+@media (max-width: 325px) {
+  :root {
+    font-size: 10px; 
+  }
+}

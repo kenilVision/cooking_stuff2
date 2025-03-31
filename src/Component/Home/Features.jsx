@@ -54,9 +54,9 @@ function Features() {
           }}
         ></div>
 
-        <div className="relative  w-[1171px]  flex flex-col items-center">
-          <div className=" text-center font-bold text-4xl sm:text-5xl md:text-[60px] leading-none tracking-normal   font-Yeseva p-[10px]">Featured</div>
-          <div className=" text-xl sm:text-2xl md:text-3xl text-[#00000080] text-center p-[10px] w-full md:w-1/2 font-poppin">
+        <div className="relative  w-[73.1875rem] px-5 flex flex-col items-center">
+          <div className=" text-center font-bold text-[3.75rem] leading-none tracking-normal   font-Yeseva p-[0.625rem]">Featured</div>
+          <div className=" text-3xl text-[#00000080] text-center p-[0.625rem] w-full md:w-1/2 font-poppin">
             We specialize in organizing professional training courses
           </div>
 

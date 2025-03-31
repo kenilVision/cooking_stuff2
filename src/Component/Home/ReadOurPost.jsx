@@ -31,13 +31,13 @@ function ReadOurPost() {
         <>
           <div id="Posts" className="relative flex justify-center pt-15 pb-15 bg-[#FFF2F2] ">
     
-            <div className="relative z-10 w-[1171px]  flex flex-col items-center">
-              <div className="text-center  font-bold text-4xl sm:text-5xl md:text-[60px] leading-none tracking-normal  font-Yeseva p-[10px]">Read Our Post</div>
-              <div className="text-xl sm:text-2xl md:text-3xl text-[#00000080] text-center p-[10px] w-full  font-poppin2 w-2/3">
+            <div className="relative z-10 w-[73.1875rem] px-5 flex flex-col items-center">
+              <div className="text-center  font-bold text-[3.75rem] w-full leading-none tracking-normal  font-Yeseva p-[10px]">Read Our Post</div>
+              <div className="text-3xl text-[#00000080] text-center p-[0.625rem] w-full  font-poppin md:w-2/3">
               We Specialise in organising Professional Traning Courses
           </div>
     
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-[53px] gap-y-10 mt-10">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-[3.3125rem] gap-y-10 mt-10">
                 {items.map((x, index) => (
                   <PostCard key={index} image={x.image} text={x.text} title={x.title} date={x.date} />
                 ))}

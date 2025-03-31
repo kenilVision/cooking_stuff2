@@ -39,14 +39,17 @@ function Navbar() {
   
     <div className='w-full flex justify-center '
     style={{
-      boxShadow: '0px 0px 10px 0px #00000040'
+      boxShadow: '0rem 0rem 0.625rem 0rem #00000040'
     }}
     >
-    <div className="w-[1171px] ">
-      <nav className="bg-white flex justify-between items-center w-full p-5">
+    <div className="w-[73.1875rem] p-5 ">
+      <nav className="bg-white flex justify-between items-center w-full ">
         <div className="flex items-center">
           <a className="items-center space-x-3  ">
-            <img src={Group} width="158" height="65" alt="Cooking Stuff Logo" className='h-[40px] sm:h-[48px] md:h-[55px] lg:h-[65px] w-auto' />
+            <img src={Group} 
+            
+            
+            className="w-[9.875rem] h-[4.0625rem]" alt="Cooking Stuff Logo"  />
           </a>
         </div>
         
@@ -56,7 +59,7 @@ function Navbar() {
             {navigation.map((x) => (
               <li key={x.to} >
                 <NavLink to={x.to} className= {({ isActive }) =>
-                                                   `p-[10px] text-lg hover:text-[#F99106] ${
+                                                   `p-[0.625rem] text-lg hover:text-[#F99106] ${
                                                      isActive ? "text-[#F99106]" : "text-[#00000080]"
                                                           }`
                                                         }>
@@ -87,7 +90,7 @@ function Navbar() {
             to='/Signin'
             type="button" 
             className={({ isActive }) =>
-              `text-lg font-bold hover:cursor-pointer hidden justify-center items-center mr-5 lg:flex p-[10px] hover:text-[#F99106] ${
+              `text-lg font-bold hover:cursor-pointer hidden justify-center items-center mr-5 lg:flex p-[0.625rem] hover:text-[#F99106] ${
                 isActive ? "text-[#F99106]" : "text-[#00000080]"
               }`
             }
@@ -97,7 +100,7 @@ function Navbar() {
           <div className='flex justify-center items-center'>
           <NavLink to='/SignUp'
             type="button" 
-            className=" flex items-center justify-center w-[100px] h-[30px] md:w-[200px] md:h-[60px] rounded-[44px]  hover:cursor-pointer bg-[#f99106] text-white text-lg font-bold ">
+            className=" flex items-center justify-center  w-[12.5rem] h-[3.75rem] rounded-[2.75rem]  hover:cursor-pointer bg-[#f99106] text-white text-lg font-bold ">
             Sign Up
           </NavLink>
           </div>
@@ -108,7 +111,7 @@ function Navbar() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-8"
+                className="h-[2rem] w-[2rem]"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -130,7 +133,7 @@ function Navbar() {
               <li key={x.to} className="w-full hover:bg-[#F99106] text-center">
                 <NavLink
                   to={x.to}
-                  className="block py-2 text-lg font-medium  text-[#00000080] "
+                  className="block py-[0.5rem] text-lg font-medium  text-[#00000080] "
                   onClick={() => setIsMenuOpen(false)} 
                 >
                   {x.text}
@@ -138,7 +141,7 @@ function Navbar() {
               </li>
             ))}
             <li>
-              <button type="button" className="text-[#00000080] py-2 text-lg font-medium hover:cursor-pointer px-4">
+              <button type="button" className="text-[#00000080] py-[0.5rem] text-lg font-medium hover:cursor-pointer px-[1rem]">
                 Sign In
               </button>
             </li>

@@ -13,9 +13,9 @@ function ReviewCard({image, text ,clientname ,jobTitle, headline}) {
     </svg>
     )
   return (
-    <div className='bg-white py-10 ps-5 pe-[53px]  rounded-lg font-poppin '
+    <div className='bg-white py-10 ps-5 pe-[3.3125rem] w-full  rounded-lg font-poppin '
     style={{
-        boxShadow: '0px 0px 7px 0px #00000040'
+        boxShadow: '0rem 0rem 0.4375rem 0rem #00000040'
     }}>
       
       <div className="flex items-center space-x-5 ">

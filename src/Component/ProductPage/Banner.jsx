@@ -4,17 +4,17 @@ function Banner() {
   return (
     <div className="relative w-full mt" >
       <div
-        className="relative flex  justify-center min-h-[288px]"
+        className="relative flex  justify-center min-h-[18rem]"
         style={{
           backgroundImage: `url(${banner})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
-        <div className={`w-7xl h-auto flex flex-col  justify-center`}>
+        <div className={`w-[73.1875rem] p-5 h-auto flex flex-col  justify-center`}>
               
-                <div className='text-black text-[42px] font-bold font-Yeseva '>Course Details</div>
-                <div className=' text-xl font-bold mt-[30px] font-poppin '>
+                <div className='text-black text-[2.625rem] font-bold font-Yeseva '>Course Details</div>
+                <div className='text-xl font-bold mt-[1.875rem] font-poppin '>
                 Home //<span className='text-[#F99106]'> Courses</span> 
                 </div>
               

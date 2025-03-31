@@ -41,14 +41,14 @@ import Card from '../../Component/Common/Card';
     return (
       <>
       <div className="relative flex justify-center pt-5 pb-5 bg-[#FFF2F2] ">
-        <div className="relative z-10 w-[1171px]  flex flex-col items-center justify-center">
-          <div className=" text-2xl sm:text-3xl md:text-4xl text-center text-black font-bold p-2 font-Yeseva ">Course Include in this collection</div>
+        <div className="relative z-10 w-[73.1875rem] p-5  flex flex-col items-center justify-center">
+          <div className=" text-4xl text-center text-black font-bold p-2 font-Yeseva ">Course Include in this collection</div>
         </div>
       </div>
         <div className="relative flex justify-center pt-15 pb-15 bg-[#FFF] font-Yeseva ">
   
-          <div className="relative z-10 w-[1171px]  flex flex-col items-center">
-            <div className="text-4xl sm:text-5xl md:text-6xl text-black font-bold p-2">Free Recipes</div>
+          <div className="relative z-10 w-[73.1875rem] px-5 flex flex-col items-center">
+            <div className="text-6xl text-black font-bold p-2">Free Recipes</div>
   
             <div className="grid grid-cols-1 md:grid-cols-2    gap-x-5 gap-y-10 mt-10 lg:gap-x-20 lg:grid-cols-3">
               {items.map((x, index) => (
