@@ -73,7 +73,7 @@ function Navbar() {
             <div class="mx-auto max-w-md">
               <form  class="relative mx-auto w-max">
                 <input type="search" 
-                      class="peer cursor-pointer relative z-10 h-12 w-12 rounded-full border border-transparent bg-transparent pl-12 outline-none focus:w-full focus:cursor-text focus:border-[#f99106] focus:pl-16 focus:pr-4" />
+                      class="peer cursor-pointer relative z-10 h-12 w-5 rounded-full border border-transparent bg-transparent pl-12 outline-none focus:w-48 focus:cursor-text focus:border-[#f99106] focus:pl-16 focus:pr-4" />
                 <svg xmlns="http://www.w3.org/2000/svg" class="absolute inset-y-0 my-auto h-8 w-12 border-r border-transparent stroke-gray-500 px-3.5 peer-focus:border-[#f99106] peer-focus:stroke-[#f99106]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
@@ -86,7 +86,7 @@ function Navbar() {
         <NavLink
             to='/Signin'
             type="button" 
-            className=" font-medium hover:cursor-pointer hidden justify-center items-center lg:flex px-4 text-[#00000080]">
+            className=" font-medium hover:cursor-pointer hidden justify-center items-center mr-5 lg:flex p-[10px] text-[#00000080]">
             Sign In
           </NavLink>
           <div className='flex justify-center items-center'>

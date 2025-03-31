@@ -11,7 +11,7 @@ function SignupDetail() {
     <div className=" flex  justify-center z-0 ">
       <div className="max-w-[1440px] w-full h-full md:flex ">
   
-        <div className=" w-full md:w-1/2 p-10 md:p-12 h-max flex items-center border-r-1 border-r-[#00000080] justify-center relative">
+        <div className=" w-full md:w-1/2 p-10 md:p-12 h-max flex items-center border-r-2 border-r-[#ECECEC] justify-center relative">
           <div className="  flex items-center justify-center">
             <div className="flex flex-wrap justify-center">
            

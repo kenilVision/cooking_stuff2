@@ -118,8 +118,8 @@ function Footer() {
     </div>
      <div className='flex justify-center bg-[#F99106]'>
         <div className="w-7xl p-5  lg:flex flex-row justify-between text-white text-xl ">
-                <div className=' flex justify-center items-center mb-2 lg:block lg:mb-0' >
-                @ Copyright 2022. All Rights Reserved by Cooking Stuff
+                  <div className="flex justify-center items-center mb-2 lg:block lg:mb-0">
+                  © Copyright 2022. All Rights Reserved by Cooking Stuff
                 </div>
                 <div className='flex justify-center lg:block  space-x-10' >
                 <a href='#'><span>Terms & Condition</span></a>
