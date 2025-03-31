@@ -112,7 +112,7 @@ function CheckoutRecentReview() {
             ))}
           </div>
 
-          <div className=" z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse ">
+          <div className=" z-30 flex justify-center absolute bottom-5 left-1/2 translate-x-[-50%] space-x-3 rtl:space-x-reverse">
         <button
           type="button"
           className={`w-5 h-5 rounded-full ${currentIndex === 0 ? 'bg-[#F99106]' : 'bg-[#FFE1E1]'}`}

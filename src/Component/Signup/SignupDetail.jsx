@@ -1,7 +1,7 @@
 import React from 'react'
 import image from '../../assets/Signup/image 1.jpg'
 import image2 from '../../assets/Signup/Group.jpg'
-import google from '../../assets/Signup/Google.jpg'
+import google from '../../assets/Signup/395f93b4cff610fb1b675dcc70e362d2.png'
 import facebook from '../../assets/Signup/facebook-svgrepo-com (5) 1.jpg'
 function SignupDetail() {
 
@@ -73,10 +73,10 @@ function SignupDetail() {
             <span className="text-gray-500">OR</span>
           </div>
           <div className="mt-[24px] flex space-x-[24px] w-full">
-            <button className="w-full flex text-base items-center justify-evenly p-[6px] bg-white border border-[#D2D2D2] hover:cursor-pointer">
+            <button className="w-full flex text-base items-center justify-evenly text-[#043133] text-[16px] p-[6px] bg-white border border-[#D2D2D2] hover:cursor-pointer">
               <img src={google} alt="Google"  /> Sign up with Google
             </button>
-            <button className="w-full text-base flex items-center justify-evenly   p-[6px] bg-white border border-[#D2D2D2] hover:cursor-pointer ">
+            <button className="w-full text-base flex items-center justify-evenly text-[#043133]  p-[6px] bg-white border border-[#D2D2D2] hover:cursor-pointer ">
               <img src={facebook} alt="Facebook"  heigth="50" width="50"/> Sign up with Facebook
             </button>
           </div>
