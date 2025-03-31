@@ -42,7 +42,7 @@ function Features() {
 
   return (
     <>
-      <div id="Feature" className="relative flex justify-center pt-15 pb-15 ">
+      <div id="Feature" className="relative flex justify-center  pt-15 pb-15 ">
         {/* Background image with opacity */}
         <div
           className="absolute inset-0 z-0"
@@ -55,7 +55,7 @@ function Features() {
         ></div>
 
         <div className="relative  w-[1171px]  flex flex-col items-center">
-          <div className="font-bold text-[60px] leading-none tracking-normal  font-Yeseva p-[10px]">Featured</div>
+          <div className=" text-center font-bold text-4xl sm:text-5xl md:text-[60px] leading-none tracking-normal   font-Yeseva p-[10px]">Featured</div>
           <div className=" text-xl sm:text-2xl md:text-3xl text-[#00000080] text-center p-[10px] w-full md:w-1/2 font-poppin">
             We specialize in organizing professional training courses
           </div>

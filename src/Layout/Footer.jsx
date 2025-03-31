@@ -65,7 +65,7 @@ function Footer() {
                 className="w-[298px] h-[122.6px]"
                 />
             </div>
-            <div className="text-2xl flex justify-center w-full   text-gray-600 lg:max-w-3xl">
+            <div className=" text-lg sm:text-xl md:text-2xl flex justify-center w-full   text-gray-600 lg:max-w-3xl">
                 <p className='text-center lg:text-start  font-poppin'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat nisi tortor tellus sagittis donec id est, dolor, morbi. Id facilisis sem sit maecenas metus, lacinia non. Lorem congue est at ultrices suscipit at nulla neque volutpat. Porta proin hdhhhjff.
                 </p>
@@ -117,8 +117,8 @@ function Footer() {
         </div>
     </div>
      <div className='flex justify-center bg-[#F99106]'>
-        <div className="w-7xl p-5  lg:flex flex-row justify-between text-white text-xl ">
-                  <div className="flex justify-center items-center mb-2 lg:block lg:mb-0">
+        <div className="w-7xl p-5  lg:flex flex-row justify-between text-white text-base sm:text-lg md:text-xl ">
+                  <div className="text-center items-center mb-2 lg:block lg:mb-0">
                   © Copyright 2022. All Rights Reserved by Cooking Stuff
                 </div>
                 <div className='flex justify-center lg:block  space-x-10' >

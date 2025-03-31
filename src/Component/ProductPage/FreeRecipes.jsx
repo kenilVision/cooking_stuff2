@@ -42,7 +42,7 @@ import Card from '../../Component/Common/Card';
       <>
       <div className="relative flex justify-center pt-5 pb-5 bg-[#FFF2F2] ">
         <div className="relative z-10 w-[1171px]  flex flex-col items-center justify-center">
-          <div className=" text-2xl sm:text-3xl md:text-4xl text-center text-black font-bold p-2">Course Include in this collection</div>
+          <div className=" text-2xl sm:text-3xl md:text-4xl text-center text-black font-bold p-2 font-Yeseva ">Course Include in this collection</div>
         </div>
       </div>
         <div className="relative flex justify-center pt-15 pb-15 bg-[#FFF] font-Yeseva ">

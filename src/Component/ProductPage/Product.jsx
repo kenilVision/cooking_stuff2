@@ -163,7 +163,7 @@ const icon=[
         <div className=' w-full lg:w-1/3 lg:pe-[30px]'>
           <div className=" p-6 rounded-lg  bg-[#FFF2F2]">
             <div className="text-2xl font-bold text-center p-5 border-b-[1px] border-[#F99106]">$420.38</div>
-            <div className=" text-lg text-[#00000080]">
+            <div className=" text-lg text-[#00000080] font-poppin">
               {
                 data.map((a)=><div className="py-5 flex justify-between border-b-1 border-[#F99106]"><strong className='flex gap-3 text-black'> {a.svg}{a.title}</strong> {a.text}</div>)
               }
@@ -173,7 +173,7 @@ const icon=[
             </button>
 
           </div>
-          <div className="my-5 lg:mt-6  flex  lg:block">
+          <div className="my-5 lg:mt-6  flex items-center lg:block">
             <h3 className="font-bold  text-2xl sm:text-3xl md:text-4xl lg:mb-10 me-3 text-center md:text-start">Share Course:</h3>
             <div className="flex justify-center md:justify-start items-center space-x-4">
               {
@@ -193,13 +193,13 @@ const icon=[
               height=" 449"
             />
           </div>
-          <div className="mb-5   text-3xl font-bold">All in one Pack</div>
+          <div className="mb-5   text-3xl font-bold font-Yeseva ">All in one Pack</div>
           <div className='flex mb-5'>
           <div className='md:flex justify-between'>
           <img src={Profile}  className="w-12 h-12 me-5 rounded-full" />
           </div>
-          <div className="text-lg text-[#00000080] w-full  md:flex justify-between">
-            <div className='flex items-center  md:m-0'>By:<span className='text-black'> Zibiah Surya </span></div>
+          <div className="text-lg text-[#00000080] w-full  md:flex justify-between font-poppin">
+            <div className='flex items-center gap-1 md:m-0'>By:<span className='text-black'> Zibiah Surya </span></div>
             <div className='flex items-center gap-1 my-2 md:m-0'><span className='text-[#f99106] '>300 </span> Enrolled Students</div>
             <div className='flex items-center  gap-2  md:m-0'><span className='text-[#f99106]'>4.2</span> {star}{star}{star}{star}{star} (2,002 Reviews)</div>
           </div>
@@ -210,19 +210,19 @@ const icon=[
               boxShadow: '0px 1px 3px 0px #00000040'
             }}
           >
-            <h3 className="font-bold  text-[34px]">Details</h3>
+            <h3 className="font-bold  text-[34px] font-Yeseva ">Details</h3>
           </div>
-          <div className=' text-2xl '>
+          <div className=' text-lg md:text-xl lg:text-2xl font-normal font-poppin'>
          
-            <div className='grid grid-cols-1 mb-[30px] md:grid-cols-2'>
+            <div className='grid grid-cols-1 mb-0 md:mb-[30px] md:grid-cols-2'>
               <div>
-              <li className="flex ">
+              <li className="flex min-h-[56px] md:min-h-0 ">
                 <span className=" mr-8 ">{svg}</span>
                 FREE Mix Veg with Fried Potato Course
               </li>
               </div>
               <div>
-                <li className="flex ">
+                <li className="flex min-h-[56px] md:min-h-0">
                 <span className=" mr-8 ">{svg}</span>
                 100% Veg recipes
               </li>
@@ -230,15 +230,15 @@ const icon=[
             </div>
 
 
-            <div className='grid grid-cols-1 mb-[30px] md:grid-cols-2'>
+            <div className='grid grid-cols-1  mb-0 md:mb-[30px] md:grid-cols-2'>
               <div>
-              <li className="flex ">
+              <li className="flex min-h-[56px] md:min-h-0 ">
                 <span className=" mr-8 ">{svg}</span>
                 Step-by-step cooking video instructions + Detailed PDF notes
               </li>
               </div>
               <div>
-              <li className="flex ">
+              <li className="flex min-h-[56px] md:min-h-0 ">
                 <span className=" mr-8 ">{svg}</span>
                 Doubt solving over call
               </li>
@@ -246,15 +246,15 @@ const icon=[
             </div>
 
 
-            <div className='grid grid-cols-1 mb-[30px] md:grid-cols-2'>
+            <div className='grid grid-cols-1  mb-0 md:mb-[30px] md:grid-cols-2'>
               <div>
-              <li className="flex ">
+              <li className="flex min-h-[56px] md:min-h-0">
                 <span className="mr-8">{svg}</span>
                 Learn from Experts
               </li>
               </div>
               <div>
-              <li className="flex ">
+              <li className="flex min-h-[56px] md:min-h-0">
                 <span className=" mr-8 ">{svg}</span>
                 Explore new recipes every day
               </li>
@@ -263,16 +263,16 @@ const icon=[
 
 
 
-            <div className='grid grid-cols-1 mb-[30px] md:grid-cols-2'>
+            <div className='grid grid-cols-1  mb-0 md:mb-[30px] md:grid-cols-2'>
               <div>
              
-              <li className="flex">
+              <li className="flex min-h-[56px] md:min-h-0">
                 <span className=" mr-8 ">{svg}</span>
                 2,00,000+ Trained students
               </li>
               </div>
               <div>
-              <li className="flex ">
+              <li className="flex min-h-[56px] md:min-h-0 ">
                 <span className="mr-8 ">{svg}</span>
                 Free Lifetime Access
               </li>

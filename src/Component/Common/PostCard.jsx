@@ -18,7 +18,7 @@ function PostCard({image,title,text,date}) {
 
 
     <button
-      className="text-[#F99106] text-xl font-bold mt-5 hover:cursor-pointer"
+      className="text-[#F99106] text-xl font-bold mt-5 hover:cursor-pointer font-Yeseva"
       
     >
       READ MORE »

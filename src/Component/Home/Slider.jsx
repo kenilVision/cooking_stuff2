@@ -92,7 +92,7 @@ function Slider() {
          </div>
 
 
-            <div className='text-white lg:text-[40px] sm:text-3xl leading-[1.41] font-bold mt-[28px]  '>
+            <div className='text-white text-3xl lg:text-[40px]  leading-[1.41] font-bold mt-[28px]  '>
             10+ Recipes
             </div>
 

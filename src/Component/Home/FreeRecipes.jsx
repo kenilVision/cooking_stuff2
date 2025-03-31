@@ -29,12 +29,12 @@ import Card from '../../Component/Common/Card';
         <div id="FreeRecipes" className="relative flex justify-center pt-15 pb-15 bg-[#FFF2F2] ">
   
           <div className="relative z-10 w-[1171px] flex flex-col items-center">
-            <div className="font-bold text-[60px] leading-none tracking-normal  font-Yeseva p-[10px]">Free Recipes</div>
+            <div className="text-center font-bold text-4xl sm:text-5xl md:text-[60px] leading-none tracking-normal    font-Yeseva p-[10px]">Free Recipes</div>
   
             <div className="grid grid-cols-1 sm:grid-cols-2    gap-x-10 gap-y-10 mt-10 lg:gap-x-20 lg:grid-cols-3">
               {items.map((x, index) => (
                 <Card key={index} image={x.image} text={x.text} course={x.course} />
-              ))}
+              ))}   
             </div>
             <div className='mt-10'>
                 <OrangeButton text='View All' />
